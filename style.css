@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-image: url('sunset.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh
+}
+.container{
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0,0, 0.6);
+    border-radius: 10px;
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.308);
+}
+.quoted{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.fa-quote-left{
+    float: left;
+}
+.quote{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+}
+.fa-quote-right{
+    float: left;
+}
+hr{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid black;
+}
+p{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 10px;
+}
+.bt{
+    width: 5vw;
+    padding: 7px;
+    justify-content: center;
+    margin:0px 45% ;
+    cursor: pointer;
+}
+.music{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    box-shadow: 0 2px 8px rgba(0, 0,0, 0.6);
+    border-radius: 10px;
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.308);
+    
+}
+.music p{
+    font-size: 25px;
+    margin-right: 40px;
+}
+.music img{
+    height: 15vh;
+    cursor: pointer;
+}
